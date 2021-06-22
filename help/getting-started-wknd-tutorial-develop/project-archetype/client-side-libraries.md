@@ -124,7 +124,7 @@ Client-side libraries have some limitations when it comes to support of language
 
     `main.scss` is the entry point to all of the Sass files in the `ui.frontend` module. It will include the `_variables.scss` file, which contains a series of brand variables to be used throughout different Sass files in the project. The `_base.scss` file is also included and defines some basic styles for HTML elements. A regular expression includes all of the styles for individual components styles under `src/main/webpack/components`. Another regular expression includes all of the files under `src/main/webpack/site/styles`.
 
-1. Inspect the file `main.ts`. `main.ts` includes `main.scss` and includes a regular expression to collect any `.js` or `.ts` files in the project. This entry point will be used by the [webpack configuration files](https://webpack.js.org/configuration/) as the entry point for the entire `ui.frontend` module.
+1. Inspect the file `main.ts`. It includes `main.scss` and a regular expression to collect any `.js` or `.ts` files in the project. This entry point will be used by the [webpack configuration files](https://webpack.js.org/configuration/) as the entry point for the entire `ui.frontend` module.
 
 1. Inspect the files beneath `src/main/webpack/site/styles`:
 
