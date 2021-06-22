@@ -195,7 +195,7 @@ The AEM Project Archetype automatically sets up this integration. Next, explore 
     >
     >There is also a `npm run prod` profile which will minify the JS and CSS. This is the standard compilation whenever the webpack build is triggered via Maven. More details about the [ui.frontend module can be found here](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/uifrontend.html).
 
-1. Inspect the file `site.css` beneath `ui.frontend/dist/clientlib-site/css/site.css`. This is the compiled CSS based on the Sass source files.
+1. Inspect the file `site.css` beneath `ui.frontend/dist/clientlib-site/site.css`. This is the compiled CSS based on the Sass source files.
 
     ![Distributed Site css](assets/client-side-libraries/ui-frontend-dist-site-css.png)
 
